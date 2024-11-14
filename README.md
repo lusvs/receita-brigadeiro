@@ -1,2 +1,2 @@
 # tela-de-login
-Site que fiz para um trabalho da escola.
+landing page de uma receita de brigadeir oque fiz para uma ofina da minha escola.
