@@ -9,48 +9,61 @@ body{
     background-color: var(--marrom-1); /* exadecimal */
 }
 
-div{
+.hero{
    background-color: var(--marrom-2);
    box-shadow: black 5px 5px 5px;
-   padding: 10px;
-   margin-left: 300px;
-   margin-right: 300px;
-   margin-top: 50px;
-   margin-bottom: 50px;
+   margin: 3% 23%;
+   padding: 5px 60px;
+}
+
+header{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   /* border: solid 1px white; */
 }
 
 h1{
+   width: 100%;
    background-color: var(--marrom-3);
    font-family: cursive;
    text-align: center;     
    border-radius: 10px;
-   margin-left: 50px;
-   margin-right: 50px;
    padding: 5px;
 }
 
 img{
-   text-align: center;
-   padding-left: 110px;
    width: 500px;
 }
 
+main{
+   width: 100%;
+   
+}
+
+.rm{
+   /* border: solid 1px white; */
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding: 0px 30px;
+   /* border: 1px solid white; */
+}
+
 h2{
+   width: 100%;
    background-color: var(--marrom-3);
    font-family: cursive;
    text-align: center;
-   margin-left: 60px;
-   margin-right: 60px;
    padding: 2px;
    border-radius: 10px;
 }
 
-ul{
-   padding-left: 150px;
-}
-
-ol{
-   padding-left: 150px;
+.lista{
+   width: 500px;
+   /* border: 1px solid white; */
 }
 
 li{
@@ -59,12 +72,15 @@ li{
    font-family: cursive;
 }
 
+footer{
+   width: 100%;
+   /* border: solid 1px white; */
+}
+
 p{
    background-color: var(--marrom-3);
    font-family: cursive;
-   text-align: center;    
-   margin-left: 50px;
-   margin-right: 50px;
+   text-align: center;
    padding: 2px;
    border-radius: 10px;
 }
